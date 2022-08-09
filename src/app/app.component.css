@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+ion-input {
+  margin: 1em 0;
+  background-color: #ddd;
+}
+
+input {
+  margin: 1em 0;
+  display: block;
+  background-color: #ddd;
+  border: none;
+  width: 100%;
+  padding: 0.5em;
+}

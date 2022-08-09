@@ -1,0 +1,37 @@
+<ion-app>
+  <ion-content>
+    <p>
+      Click in the first date input to show the picker. While that picker is
+      still up, click in the second. Repeat back and forth a few times and you
+      should see Safari lock up.
+    </p>
+    <p>
+      You will still be able to scroll the page, but you can choose a date, nor
+      can you refresh the page.
+    </p>
+    <p>
+      Swiping on the address bar to switch tabs works, but you can't interact
+      with any other tabs, and nothing else on the address bar works.
+    </p>
+    <p>
+      Switching apps does not help. Force-closing Safari is the only solution.
+    </p>
+    <ion-label
+      >Ion Date 1
+      <ion-input type="date"></ion-input>
+    </ion-label>
+    <ion-label
+      >Ion Date 2
+      <ion-input type="date"></ion-input>
+    </ion-label>
+    <p>Plain inputs don't have this problem.</p>
+    <ion-label
+      >Plain Date 1
+      <input type="date" />
+    </ion-label>
+    <ion-label
+      >Plain Date 2
+      <input type="date" />
+    </ion-label>
+  </ion-content>
+</ion-app>
